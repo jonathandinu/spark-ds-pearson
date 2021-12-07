@@ -1,4 +1,4 @@
 pwd = $(shell pwd)
 
 jupyter:
-	docker run -p 8888:8888 -p 8265:8265 -p 8000:8000 -v ${pwd}:/home/jovyan/ --pull 'always' psychothan/scaling-data-science
+	docker run -p 8888:8888 -p 4040:4040 -v ${pwd}:/home/jovyan/ psychothan/scaling-data-science

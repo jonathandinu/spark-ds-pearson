@@ -55,7 +55,7 @@ make jupyter
 or
 
 ```
-docker run -p 8888:8888 -p 8265:8265 -p 8000:8000 -p 8089:8089 -v $(pwd):/home/jovyan/ --pull 'always' psychothan/scaling-data-science
+docker run -p 8888:8888 -p 4040:4040 -v ${pwd}:/home/jovyan/ psychothan/scaling-data-science
 ```
 
 Then open a web browser to the URL it spits out (the Jupyter server in the container uses [token authentication](https://jupyter-notebook.readthedocs.io/en/stable/security.html))
