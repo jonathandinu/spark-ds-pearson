@@ -47,7 +47,7 @@ This lesson will show you how to build data-driven applications with Spark to sc
 
 To run locally in a docker container 👇
 
-```
+```sh
 # build docker container locally
 docker build -t spark-live .
 
