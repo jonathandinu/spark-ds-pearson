@@ -50,9 +50,6 @@ To run locally in a docker container 👇
 # build docker container locally
 docker build -t spark-live .
 
-# download dataset
-wget -nc -P code/data/ https://archive.org/download/stackexchange/ai.stackexchange.com.7z/Posts.xml
-
 # start container with Jupyter notebook server
 docker run -p 8888:8888 -p 4040:4040 -v ${pwd}:/home/jovyan/ spark-live
 ```
